@@ -1,0 +1,35 @@
+body {
+  background-color: #468282;
+}
+
+h1 {
+    color:#ffc56c;
+    font-family: "Century Gothic", arial;
+}
+
+p  {
+    color: #ffffff;
+    font-family: arial;
+}
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+ul {
+    background-color: #dddddd
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+  float: left;
+}
+
+/*a {
+/*  display: block;
+/*  padding: 8px;
+/*  background-color: #dddddd;
+/*}
