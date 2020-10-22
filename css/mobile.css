@@ -15,7 +15,6 @@ body {
 .strapline img {
   flex: 1 1 100%;
   width: 50%;
-  height: 50%;
 }
 .news {
   display: flex;
