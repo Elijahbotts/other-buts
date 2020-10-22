@@ -33,7 +33,11 @@ nav ul {
 }
 nav ul li {
   padding: 8px, 5px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #cccccc;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 /*main styling*/
 .strapline {
