@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #ffc56c;
+  color: #ffffff;
   font-family: "Century Gothic", arial;
 }
 
@@ -11,13 +11,6 @@ p {
   color: #ffffff;
   font-family: arial;
 }
-
-/* div {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }*/
 ul {
   color: #dddddd;
   list-style-type: none;
@@ -29,4 +22,33 @@ ul {
 }
 li {
   float: left;
+}
+.burgerMenuContainer {
+  display: none;
+}
+.headerContainer {
+  padding-top: 20px;
+}
+header {
+  max-width: 1080px;
+  margin: auto;
+}
+main {
+  max-width: 1080px;
+  margin: auto;
+}
+.news {
+  flex-wrap: nowrap;
+  font-size: 1.2rem;
+}
+.news > div {
+  flex: 1 1 25%;
+  padding: 0;
+  margin: 0 20px;
+}
+.news > div:first-child {
+  margin-left: 0;
+}
+.news > div:last-child {
+  margin-right: 0;
 }
