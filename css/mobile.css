@@ -12,10 +12,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.strapline img {
-  flex: 1 1 100%;
-  width: 50%;
-}
 .news {
   display: flex;
   flex-wrap: wrap;
