@@ -4,7 +4,10 @@
 body {
   font-family: "Century Gothic", Arial, Helvetica, sans-serif;
   background-color: lightslategrey;
+  padding: 0;
+  margin: 0;
 }
+/*main styling*/
 .strapline {
   display: flex;
   flex-wrap: wrap;
@@ -24,4 +27,7 @@ body {
 }
 .news img {
   width: 100%;
+}
+footer {
+  background: rgba(0, 0, 0, 0.8);
 }
