@@ -10,6 +10,16 @@
   //mobile menu
   if(window.getComputedStyle(burgerMenuContainer).display !== "none"){
     navBar.style.height = "0px";
-  }
+    burgerMenu.addEventListener("click", function(){
+      if(navBarStatus){
+        navBarStatus = false;
+        navBar.style.height = "0px";
+        }
+        else{
+           navBarStatus = true;
+           navBar.style.height = navHeight + "px";
+         }
+    });
+    }
   //end code
 })();
