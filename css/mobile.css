@@ -6,4 +6,5 @@ body {
 .news {
   display: flex;
   flex-wrap: wrap;
+  font-size: 0.9rem;
 }
