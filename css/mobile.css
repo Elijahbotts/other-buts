@@ -5,4 +5,5 @@ body {
 
 .news {
   display: flex;
+  flex-wrap: wrap;
 }
