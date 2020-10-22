@@ -14,10 +14,12 @@
       if(navBarStatus){
         navBarStatus = false;
         navBar.style.height = "0px";
+        burgerMenu.setAttribute("src","images/Hamburger_icon_white.svg")
         }
         else{
            navBarStatus = true;
            navBar.style.height = navHeight + "px";
+           burgerMenu.setAttribute("src", "images/x-mark.png")
          }
     });
     }
