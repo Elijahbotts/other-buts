@@ -1,27 +1,15 @@
+//IIFE
 (function(){
-$(".burgerMenu").on("click", function(ev) {
-  ev.preventDefault();
-  $(this).toggleClass("animateBurger");
-  $(".mainNav").slideToggle("fast");
-});
-$(window).on("resize", function(ev) {
-  //console.info(window.innerWidth);
-  if (window.innerWidth > 720) {
-    $("nav ul").attr("style", "");
+  //start code
+  //variables
+  var burgerMenu = document.getElementById("burgerMenu");
+  var burgerMenuContainer = document.querySelector(".burgerMenuContainer");
+  var navBar = document.querySelector("nav");
+  var navHeight = navBar.offsetHeight;
+  var navBarStatus = false;
+  //mobile menu
+  if(window.getComputedStyle(burgerMenuContainer).display !== "none"){
+    navBar.style.height = "0px";
   }
-});
-function navHighlight(elem, home, active) {
-    var url = location.href.split('/'),
-        loc = url[url.length -1],
-        link = document.querySelectorAll(elem);
-    for (var i = 0; i < link.length; i++) {
-        var path = link[i].href.split('/'),
-            page = path[path.length -1];
-        if (page == loc || page == home && loc == '') {
-            link[i].parentNode.className += ' ' + active;
-            document.body.className += ' ' + page.substr(0, page.lastIndexOf('.'));
-            }
-        }
-    }
-navHighlight('.mainNav ul li a', 'index.html', 'current'); /* menu link selector, home page, highlight class */
+  //end code
 })();

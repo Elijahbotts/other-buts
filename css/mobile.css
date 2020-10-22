@@ -25,6 +25,8 @@ header div {
 }
 nav {
   flex: 1 1 100%;
+  overflow: hidden;
+  transition: height 0.5s;
 }
 nav ul {
   list-style: none;
@@ -38,6 +40,7 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
+  display: block;
 }
 /*main styling*/
 .strapline {
