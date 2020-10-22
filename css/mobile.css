@@ -5,15 +5,22 @@ body {
   font-family: "Century Gothic", Arial, Helvetica, sans-serif;
   background-color: lightslategrey;
 }
-
+.strapline {
+  display: flex;
+  flex-wrap: wrap;
+}
+.strapline img {
+  flex: 1 1 100%;
+  width: 100%;
+}
 .news {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.9rem;
 }
-
 .news > div {
-  flex: 1 1 50%;
+  flex: 1 50%;
+  padding-right: 10px;
 }
 .news img {
   width: 100%;
